@@ -1,0 +1,55 @@
+#publications {
+	padding-bottom: 6em;
+}
+
+
+.section-publications {
+	&-header {
+		display: flex;
+		justify-content:space-between;
+	    align-items:center;
+	
+		&__link {
+			color: $color-secondary;
+		}		
+		
+
+	}
+	//Si aumentan los articulos agregar los rangos de numeros
+
+	@for $i from  1 through 4 {
+
+		&-article#{$i}{
+			&__date {
+				font-family: $span--font-family;
+
+
+			}
+
+		}
+
+	}
+
+
+	&-newsletter {
+		padding: 1em;
+		background-color: lighten($color__primary--light,65%);
+
+		&__img {
+			float: right;	
+		}
+
+		&__paragraph {
+			margin-bottom: 0;
+		}
+
+		&__link {
+			color: $color-secondary;
+			padding-right: 2em;	
+			 
+		}
+	}
+
+}
+
+

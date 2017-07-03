@@ -1,0 +1,39 @@
+	@import "base/functions";
+
+	//Colores para el texto
+		$color__primary : #585858;  // Gris claro
+		$color__primary--light :#424242;
+		$color__primary--dark : #212128;  // Gris oscuro
+
+	//Colores para el modulo-divider
+		$color-secondary : #4285F4;
+		  
+		
+	// ESTILOS BASE
+		$body--background  : #fff; // fondo para el body
+		$body--font-family : 'Roboto', sans-serif; // fuente predeterminada
+		$body--color       : $color__primary--light; // color de texto predeterminado
+
+	// ESTILOS DE ENCABEZADOS
+		$header--font-family    : 'Open Sans', sans-serif; // fuente para los headers (h1,h2,h3...)
+		$header--font-weight    : bold; // grosor de fuente para los headers
+		$header--text-transform : normal; // normal, uppercase, lowercase, capitalize
+		$header--color          : $color__primary--dark;
+
+		$h1--font-size : em(24px);
+		$h2--font-size : em(20px);
+		$h3--font-size : em(18px);
+		$h4--font-size : em(16px);
+		$h5--font-size : em(14px);
+		$h6--font-size : em(12px);
+
+	// ESTIILOS DE ENLACES
+		$link--color : $color__primary--dark;  // color para los enlaces
+
+	// ESTILOS DE PÁRRAFOS
+		$p--font-size   : em(16px); // Tamaño de fuente
+		$p--line-height : 1.4;  // Altura de línea
+		$p--margin      : em(16px); // Separación entre un párrafo y el siguiente
+
+	//ESTILOS SPAN 
+		$span--font-family :  'Roboto Mono', monospace;
